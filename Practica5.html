@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1>
+    <hr>
+    <label for="nombre">Nombre</label>
+    <input type="text" placeholder="Teclea el nombre del alumno" required><br><br>
+   
+    <label for="edad">Edad:</label>
+    <input type="number" placeholder="Teclea el nombre del alumno" required><br><br>
+
+    <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+    <input type="date" required><br><br>
+
+    <input type="radio" name="sexo" required> Femenino
+    <input type="radio" name="sexo" required> Masculino
+    <br><br>
+
+    <label for="direccion">Direccion:</label><br>
+    <textarea name="direccion" id="" cols="25" rows="5" placeholder="Teclea direccion"></textarea><br><br>
+
+    <label for="escuela">Escuela:</label>
+    <select name="escuela" id="">
+        <option value="">Selecciona una escuela</option>
+        <option value="cetis">CETIS 107</option>
+        <option value="cbtis">CBTIS224</option>
+        <option value="otra">Otra</option>
+        </select><br><br>
+
+        <label for="materias">Materias cursadas:</label><br>
+        <input type="checkbox" name="materias[]"> Fisica <br>
+        <input type="checkbox" name="materias[]"> Calculo diferancial <br>
+        <input type="checkbox" name="materias[]"> Ingles <br>
+        <input type="checkbox" name="materias[]"> Programacion <br><br>
+
+        <label for="color">Color preferido</label>
+        <input type="color" required> <br> <br>
+
+        <label for="imagen_perfil">Imagen de perfil</label><br>
+        <input type="file" accept="png/jpg"><br><br>
+
+        <input type="submit" value="Guardar alumno"><br><br><br>
+        
+        <h5>Luis Angel Castro Molina - 08/02/23 &copy; 2023- luiscstm11@gmail.com</h5>
+
+</body>
+</html>
