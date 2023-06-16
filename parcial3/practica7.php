@@ -30,7 +30,8 @@
     ?>
     <div class="container">
         <h1>Práctica 7 - Serpientes y escaleras</h1><hr>
-        <form action="">
+        <form action="practica7.php" method="POST">
+            <input type="submit" value="Jugar" class="btn btn primary"><hr>
             <div class="row">
                 <?php
                     for($i=100; $i>0; $i--){
